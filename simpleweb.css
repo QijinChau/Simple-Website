@@ -6,3 +6,34 @@ h1 {color: #0000ff; font-family: arial; text-align: center}
 h2 {font-family: fantasy; font-size: 23px;}
 p {font-size:20px}
 .center {font-size:12px; text-align: center}
+
+/* Navigation */
+ul {
+  	list-style-type: none;
+  	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+}
+li {
+	float: left;
+}
+li a {
+	display: inline-block;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+li a:hover {
+	background-color: #111;
+}
+
+/* Footer */
+.footer {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background-color: #FA8072;
+	color: white;
+	text-align: center;
+}
