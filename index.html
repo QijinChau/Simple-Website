@@ -10,9 +10,12 @@
 	.bunch-inline {display:inline-block;}
 	A:hover {color: green; text-decoration: none; font-weight: none}
 	
-	@media screen
+	@media (max-width: 600px)
 	{
 		html,body {font-size: 10px;}
+	}
+	@media only screen and (max-device-width: 480px) {
+		html,body {font-size: 8px;}
 	}
 </style>
 </head>
